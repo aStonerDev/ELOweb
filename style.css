@@ -86,3 +86,56 @@ h1 {
 .container a:hover {
   color: tomato;
 }
+
+.createuser-base {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+  height: 80%;
+  width: 100%;
+}
+
+.usr-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 15px;
+}
+
+#lbl {
+  font-weight: bold;
+  text-align: start;
+  padding-bottom: 5px;
+}
+
+#inp {
+  border: none;
+  background-color: azure;
+  border-bottom: 3px solid silver;
+  font-size: medium;
+  padding-bottom: 3px;
+}
+
+#inp:focus {
+  outline: none;
+  font-size: large;
+}
+
+#enviar {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 250px;
+  height: 30px;
+  background-color: silver;
+  border: none;
+}
+
+#enviar:hover {
+  cursor: pointer;
+  background-color: azure;
+  border: 3px solid silver;
+}
+
+
+
