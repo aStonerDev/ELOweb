@@ -18,20 +18,26 @@
       </ul>
     </div>
 
-    <div class="createuser-base">
+    <div class="competir-base">
       <div class="usr-item">
-        <label for="usr-nick" id="lbl">Nombre de usuario</label>
+        <label for="usr-nick" id="lbl">Ingrese usuario A</label>
         <input type="text" name="usr-nick" id="inp"/>
       </div>
       <div class="usr-item">
-        <label for="usr-password" id="lbl">Contraseña</label>
-        <input type="password" name="usr-password" id="inp"/>
+        <label for="usr-nick" id="lbl">Ingrese usuario B</label>
+        <input type="text" name="usr-nick" id="inp"/>
       </div>
-      <div class="usr-item">
-        <label for="usr-password2" id="lbl">Repetir Contraseña</label>
-        <input type="password" name="usr-password2" id="inp"/>
+      <div class="checkWinner">
+        <label for="">Jugador A</label><input type="radio" name="winner" id="" checked>
+        <label for="">Jugador B</label><input type="radio" name="winner" id="">
       </div>
-      <input type="button" value="Crear usuario" id="enviar">
+      <input type="button" value="Competir" id="enviar">
+      <div class="resultados">
+        <p>Nuevo ELO<br>JugadorA</p>
+        <p id="AnewELO">0</p>
+        <p>Nuevo ELO<br>JugadorB</p>
+        <p id="BnewELO">0</p>
+      </div>
     </div>
   </div>
 </body>
