@@ -1,6 +1,5 @@
 /*Trabajar con JSON */
 const fs = require('fs');
-const db = JSON.parse(fs.readFile('db.json'))
 
 /*Extraer constantes */
 const username = document.getElementById("inp-user");
@@ -10,13 +9,8 @@ const button = document.getElementById("registrar");
 button.addEventListener("click", registrar);
 
 function buscarUsuario(nombre) {
-  let i = 0; let retorno = null;
-
-  while (i < usuarios.length && retorno == null) {
-    if (db[i] == nombre) {                                              
-      retorno = db[i];
-    } else i++;
-  }
+  let retorno = false;
+  const user = 
   return retorno;
 }
 
