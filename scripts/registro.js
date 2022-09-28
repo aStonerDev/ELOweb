@@ -1,18 +1,9 @@
-/*Trabajar con JSON */
-const fs = require('fs');
-
 /*Extraer constantes */
 const username = document.getElementById("inp-user");
 const password = document.getElementById("inp-pass");
 const passwordConfirm = document.getElementById("inp-pass2");
 const button = document.getElementById("registrar");
 button.addEventListener("click", registrar);
-
-function buscarUsuario(nombre) {
-  let retorno = false;
-  const user = 
-  return retorno;
-}
 
 function registrar() {
   let user = buscarUsuario(username.value);
